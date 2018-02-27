@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorMainLight</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="CustomLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="CustomHintLabel" parent="CustomLabel">
+        <item name="android:textColor">@color/colorLightGray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">4dp</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="AppThemeNoActionBar">
+        <item name="buttonStyle">@style/CustomAlertButtonStyle</item>
+        <item name="android:textViewStyle">@style/CustomAlertLabel</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:minHeight">40dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!--alert styles-->
+
+    <style name="CustomAlertLabel" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="CustomAlertButtonStyle" parent="CustomButtonStyle">
+        <item name="android:background">@drawable/alert_button_background</item>
+        <item name="android:width">160dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MTInterviewApp</string>
+    <string name="main_fragment_title">Listado de Laptops</string>
+    <string name="laptop_detail_title">Detalle</string>
+
+    <!--text for general buttons-->
+    <string name="ok">Aceptar</string>
+
+    <!--messages-->
+    <string name="no_results">No hay resultados</string>
+    <string name="error_msg_failure_error">Hubo un error al conectarse a la nube.</string>
+
+</resources>
