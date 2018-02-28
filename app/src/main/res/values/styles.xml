@@ -33,6 +33,7 @@
     </style>
 
     <style name="MyDialogTheme" parent="AppThemeNoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
         <item name="buttonStyle">@style/CustomAlertButtonStyle</item>
         <item name="android:textViewStyle">@style/CustomAlertLabel</item>
     </style>
